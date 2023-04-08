@@ -5,9 +5,21 @@ nav{
     padding: 20px 80px;
     
 }
+.logoAndtext{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 30px;
+    color: #808080;
+    font-weight: 300;
+   
+}
 .navLogo{
-    height : 15%;
-    width : 15%;
+    height : 95px;
+    width : 95px;
     margin-top: 5px;
 }
 
@@ -46,6 +58,10 @@ nav{
 }
 
 @media screen and (max-width : 769px){
+    nav{
+        padding: 10px 10px;
+ 
+    }
     #navContent{
         display: flex;
         flex-direction: column;
@@ -53,16 +69,19 @@ nav{
         justify-content: flex-start;
         white-space: nowrap;
         position: fixed;
-        top: 90px;
-        right: -300px;
-        width: 300px;
-        height: 100vh;
+        top: 110px;
+        right: -400px;
+        width: 400px;
+        
         background-color: #f2f2f2;
-        padding: 40px 0 0 10px ;
+        padding: 20px 0 0 10px ;
         transition: 0.3s ease-in-out;
     }
     #navContent.active{
     right: 0px;
+    }
+    h2{
+        font-size: 30px;
     }
     #navContent li {
         margin-bottom: 25px;
@@ -71,7 +90,7 @@ nav{
         display: block;
     }
     #mobile i{
-        font-size: 28px;
+        font-size: 12px;
         cursor: pointer;
     }
 }

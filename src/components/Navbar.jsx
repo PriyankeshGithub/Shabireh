@@ -17,8 +17,11 @@ return(
   <>
     <nav>
         <div className="logoAndtext">
-        <a href="index.html"><img class="navLogo" src={logo} alt="logo" /></a>
-        <h2>Shabireh</h2>
+        
+          <a href="index.html"><img class="navLogo" src={logo} alt="logo" /></a>
+          <h2>Shabireh</h2>
+        
+        
         </div>
         <div>
             <ul id="navContent" className={this.state.clicked ? "#navbar active" : "#navbar"}>
