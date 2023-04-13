@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shabireh/static/css/main.cd853125.css",
-    "main.js": "/Shabireh/static/js/main.cf7ef97f.js",
+    "main.css": "/Shabireh/static/css/main.6eba247e.css",
+    "main.js": "/Shabireh/static/js/main.66dae9ec.js",
     "static/media/shabirehLogo.jpg": "/Shabireh/static/media/shabirehLogo.cf56f581b238a62cefa2.jpg",
     "index.html": "/Shabireh/index.html",
-    "main.cd853125.css.map": "/Shabireh/static/css/main.cd853125.css.map",
-    "main.cf7ef97f.js.map": "/Shabireh/static/js/main.cf7ef97f.js.map"
+    "main.6eba247e.css.map": "/Shabireh/static/css/main.6eba247e.css.map",
+    "main.66dae9ec.js.map": "/Shabireh/static/js/main.66dae9ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd853125.css",
-    "static/js/main.cf7ef97f.js"
+    "static/css/main.6eba247e.css",
+    "static/js/main.66dae9ec.js"
   ]
 }
