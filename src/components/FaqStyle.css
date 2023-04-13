@@ -10,7 +10,11 @@
 }
 .accordion{
     width: 500px;
-    
+    text-align: center;
+s
+}
+.questions{
+    text-align: center;
 }
 .item{
     background-color: #ffff;
