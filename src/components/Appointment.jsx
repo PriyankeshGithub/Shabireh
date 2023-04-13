@@ -4,7 +4,7 @@ import '../components/AppointmentStyle.css';
 const Appointment = () => {
   return (
     <div className='appointment'>
-      <h1>Book Appointment</h1>
+      <h1 className='appointmentText'>Book Appointment</h1>
       <p className='contactDesc'>We'd love to hear from you! Please use the form below to get in touch with us. <br/> Whether you have a question, comment, or just want to say hello,<br/> we'll do our best to get back to you as soon as possible. Thank you for your interest :)!</p>
       <div className="contactFrom">
       <form>
