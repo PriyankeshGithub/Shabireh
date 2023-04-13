@@ -17,7 +17,7 @@ const Faq = () => {
         {data.map((item, i) => (
           <div className='item' key={i}>
             <div className='tittle'>
-              <h2 onClick={() => display(i)}>{item.question}</h2>
+              <h2 className='questions' onClick={() => display(i)}>{item.question}</h2>
               <p onClick={() => display(i)}>{text[i] ? '-' : '+'}</p>
             </div>
             <div className='content'>{text[i] && item.answer}</div>

@@ -4,11 +4,21 @@
     color: black;
 }
 .tittle{
+    font-size: 70px;
     text-align: left;
+    margin-left: 170px;
+
 }
 .tittleDesc{
+    font-size: 20px;
     text-align: left;
     color: black;
     margin-left: 20px;
     margin-right: 50px;
+}
+.vestadesc{
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px 50px 30px 5px;
+    margin-left: 170px;
+    max-width: 500px;
 }
