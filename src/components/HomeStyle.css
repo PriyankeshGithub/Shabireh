@@ -2,6 +2,7 @@
     height: 100vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000000;
+    background-color: white;
 }
 .mainText{
 text-align: center;
@@ -27,7 +28,8 @@ span{
 }
 @media screen and (max-width : 769px){
     .home{
-        height: 80vh;
+        height: 80vh;  
+        background-color: white;
 
     }
 h1{

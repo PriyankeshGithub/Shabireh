@@ -40,6 +40,7 @@ object-fit: cover;
 }
 
 @media screen and (max-width : 769px){
+    
     .cardImg{
         margin-bottom: 0;
     }
@@ -47,10 +48,7 @@ object-fit: cover;
         font-size: 55px;
         text-align: center;
     }
-    .courses{
-        display:contents;
-     
-    }
+    
     .cardTitle{
         font-size: 30px;
     }
@@ -58,11 +56,25 @@ object-fit: cover;
         font-size: 8px;
         margin: 0;
     }
+   
     .card{
         width: 150px;
         height: 240px;
         margin: 20px auto;
         justify-content: center;
         align-items: center;
+        box-shadow: none;
+        border: 0.1px solid black;
+        
     }
+   
+    .courses{
+        display:contents;   
+        background-color: #f2f2f2;
+    }
+    .c2{
+        background-color: #f2f2f2;
+        height: 130vh;
+
+    } 
 }
