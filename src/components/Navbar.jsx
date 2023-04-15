@@ -10,6 +10,10 @@ class Navbar extends Component{
   handleclick = () =>{
     this.setState({clicked: !this.state.clicked})
   }
+  handleLinkClick = () => {
+    if (window.innerWidth <= 769) {
+      this.setState({ clicked: false });
+    } }
   render(){
   
 
@@ -25,10 +29,10 @@ return(
         </div>
         <div>
             <ul id="navContent" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                <li><Link activeClass="active" smooth spy to="courses">Classes</Link></li>
-                <li><Link activeClass="active" smooth spy to="appointment">Book Appointment</Link></li>
-                <li><Link activeClass="active" smooth spy to="faq">FAQ</Link></li>
-                <li><Link activeClass="active" smooth spy to="about">ABOUT</Link></li>
+                <li><Link activeClass="active" smooth spy to="courses" onClick={this.handleLinkClick}>Classes</Link></li>
+                <li><Link activeClass="active" smooth spy to="appointment" onClick={this.handleLinkClick}>Book Appointment</Link></li>
+                <li><Link activeClass="active" smooth spy to="faq" onClick={this.handleLinkClick}>FAQ</Link></li>
+                <li><Link activeClass="active" smooth spy to="about" onClick={this.handleLinkClick}>ABOUT</Link></li>
             </ul>
         </div>
 
