@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Shabireh/static/css/main.371a006e.css",
-    "main.js": "/Shabireh/static/js/main.24430bd6.js",
+    "main.css": "/Shabireh/static/css/main.44de954f.css",
+    "main.js": "/Shabireh/static/js/main.b95d4357.js",
     "static/media/favicon.png": "/Shabireh/static/media/favicon.dada403cec16951b19c4.png",
     "static/media/shabirehLogo.jpg": "/Shabireh/static/media/shabirehLogo.cf56f581b238a62cefa2.jpg",
     "static/media/hindii.jpg": "/Shabireh/static/media/hindii.7b40e56bda5632a27da4.jpg",
     "static/media/arab.jpg": "/Shabireh/static/media/arab.a9ef1d2ac5d24259c4ca.jpg",
     "static/media/lith.png": "/Shabireh/static/media/lith.20ac6a6ef0d735c94e1b.png",
     "index.html": "/Shabireh/index.html",
-    "main.371a006e.css.map": "/Shabireh/static/css/main.371a006e.css.map",
-    "main.24430bd6.js.map": "/Shabireh/static/js/main.24430bd6.js.map"
+    "main.44de954f.css.map": "/Shabireh/static/css/main.44de954f.css.map",
+    "main.b95d4357.js.map": "/Shabireh/static/js/main.b95d4357.js.map"
   },
   "entrypoints": [
-    "static/css/main.371a006e.css",
-    "static/js/main.24430bd6.js"
+    "static/css/main.44de954f.css",
+    "static/js/main.b95d4357.js"
   ]
 }
