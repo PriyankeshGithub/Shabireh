@@ -21,7 +21,7 @@ const Cards = (props) =>{
 const Courses = () => {
   return (
     <div className='courses'>
-    <h1>Classes we offer</h1>
+    <h1 className='classesText'>Classes we offer</h1>
       <Cards img={lithLogo} title ="Lithuanian" desc="Lithuanian is a Baltic language spoken primarily in Lithuania and is one of the oldest living Indo-European languages. It is written in the Latin script and has retained many archaic features that have been lost in other Indo-European languages."/>
 
       <Cards img={hindiLogo} title ="Hindi" desc="Hindi is an Indo-Aryan language primarily spoken in India and is written in the Devanagari script. It is the fourth most spoken language in the world."/>

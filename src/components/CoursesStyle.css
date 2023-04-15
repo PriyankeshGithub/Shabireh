@@ -43,10 +43,13 @@ object-fit: cover;
     .cardImg{
         margin-bottom: 0;
     }
+    .classesText{
+        font-size: 55px;
+        text-align: center;
+    }
     .courses{
         display:contents;
-        background-color: #f2f2f2;
- 
+     
     }
     .cardTitle{
         font-size: 30px;
@@ -58,6 +61,7 @@ object-fit: cover;
     .card{
         width: 150px;
         height: 240px;
+        margin: 20px auto;
         justify-content: center;
         align-items: center;
     }

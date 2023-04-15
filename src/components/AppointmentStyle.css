@@ -53,11 +53,10 @@ width: 50%;
     margin-right: 20px;
     text-align: center;
   }
-    h1{
-      margin-right: 20px;
-      text-align: center;
-      font-size: 35px;
-    }
+  .appointmentText{
+    text-align: center;
+    font-size: 55px;
+  }
      
       form {
         float: none;

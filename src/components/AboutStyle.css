@@ -1,3 +1,57 @@
 .about{
     height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutCard{
+    max-width: 500px;
+    padding: 30px;
+    margin: 200px auto;
+    background-color: #f2f2f2;
+   
+}
+.abtme{
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+.abtdesc{
+    color: black;
+    font-size: 20px;
+}
+.abtimg{
+    width: 150px;
+    height: 150px;
+    margin: 10px 150px ;
+}
+.webby{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+@media screen and (max-width : 769px){
+    .aboutCard{
+        max-width: 300px;
+        padding: 5px;
+        margin: 100px auto;
+    }
+    .abtme{
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+    }
+    .abtdesc{
+        color: black;
+        font-size: 20px;
+    }
+    .abtimg{
+        width: 150px;
+        height: 150px;
+        margin: 10px 75px ;
+    }
+    .webby{
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
 }
