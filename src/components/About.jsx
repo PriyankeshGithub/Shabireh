@@ -12,7 +12,7 @@ const About = () => {
         strings: ['मैं कौन हूँ','About ME', 'Apie Mane', 'ْعَنِّي', 'Acerca de mí'],
         autoStart: true,
         loop: true, }} /></h1>
-        <p className='abtdesc'>I Love to Teach, I am a freelance language teacher who teaches lithuanian, hindi and arabic.<br/> I study at Vilnius university where my major subject is India and South Asia, and my minor is Spanish language and culture</p>
+        <p className='abtdesc'>I am Orea, I am a freelance language teacher who teaches lithuanian, hindi and arabic.<br/> I study at Vilnius university where my major subject is India and South Asia, and my minor is Spanish language and culture</p>
       </div>
       <p><a className='webby' href="https://www.linkedin.com/in/priyankesh-shivam/">Website by Priyankesh</a></p>
     </div>
